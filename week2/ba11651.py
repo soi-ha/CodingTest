@@ -5,7 +5,8 @@ n = int(sys.stdin.readline())
 li = []
 
 for i in range(n):
-  li.append(input().split())
+  # li.append(input().split())
+  li.append(list(map(int,sys.stdin.readline().split())))
 
 li.sort(key=lambda a: (a[1],a[0])) # 원하는 인덱스로 정렬함
 # key값에 무명함수를 사용하여 1번째 인덱스로 정렬하게 함
