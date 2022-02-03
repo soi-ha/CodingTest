@@ -31,6 +31,7 @@ def solution(name):
   answer = cnt + min_move
   return answer
 
+# 74.1%에서 올릴 수 없음...ㅜ
   
 solution('JAN')
 
